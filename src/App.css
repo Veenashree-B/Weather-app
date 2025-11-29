@@ -1,0 +1,140 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, #000000, #75b9c5);
+
+  background-size: cover;
+  background-position: center;
+  color: #8ffbff;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  min-height: 100vh;
+  backdrop-filter: blur(6px);
+  background-color: rgba(0, 0, 0, 0.45);
+  padding: 3rem 1rem;
+}
+
+.title {
+  font-size: 2.4rem;
+  color: #dfec22;
+  margin-bottom: 2rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+
+.search-container {
+  position: relative;
+  width: 300px;
+  margin: 0 auto 2rem auto;
+}
+
+.search-bar input {
+  padding: 0.7rem 1rem;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  width: 200px;
+  font-size: 1rem;
+}
+
+.search-bar button {
+  padding: 1rem 1rem;
+  margin-left: 8px;
+  margin-top:8px;
+  border: none;
+  border-radius: 25px;
+  background-color: #f1d554;
+  color: #222;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #ffd84f;
+}
+
+.suggestions {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.4rem;
+  position: absolute;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  overflow: hidden;
+  color: #0f0f0f;
+}
+
+.suggestions li {
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.suggestions li:hover {
+  background: #f0f0f0;
+}
+
+.weather-card {
+  background-color: rgb(0, 0, 0);
+  border-radius: 16px;
+  width: 340px;
+  margin: 0 auto;
+  padding: 1.8rem 1.4rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease;
+}
+
+.weather-card:hover {
+  transform: translateY(-5px);
+}
+
+.weather-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  font-size: 2.2rem;
+}
+
+.temp {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.desc {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+}
+
+.extra-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.info-item {
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.info-item span {
+  display: block;
+  opacity: 0.8;
+}
+
+.tip {
+  font-weight: bold;
+  color: #ffcf33;
+  font-size: 1rem;
+}
