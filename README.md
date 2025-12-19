@@ -1,8 +1,3 @@
-Here’s a **professional, standard, and updated README.md** you can use for your **Weather-app** project at *Veenashree-B/Weather-app*. This follows standard industry practices (clear description, prerequisites, installation, usage, features, and more) so anyone can clone and run your project easily. ([FreeCodeCamp][1])
-
----
-
-````markdown
 # 🌤️ Weather App
 
 A modern **React + Vite Weather Forecast Application** that fetches and displays real-time weather data for any city around the world. Built with a clean architecture, modular components, and professional UI, this project demonstrates proficiency in frontend development, API integration, and responsive interface design.
