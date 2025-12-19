@@ -156,7 +156,8 @@ Please ensure any new code follows existing patterns and is well-tested.
 ## 📬 Author
 
 **Veenashree B**
-Frontend & Data Science Enthusiast
+
+[Frontend & Data Science Enthusiast]
 Github: [https://github.com/Veenashree-B](https://github.com/Veenashree-B)
 
 
